@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Django
+db.sqlite3
+*.log
+
+# Environment
+.env
+
+# Geocoding dataset (downloaded on demand by load_fuel_data)
+data/US.zip
+data/US.txt
